@@ -41,11 +41,11 @@
   }
   
   .openbtn {
-    width: 44px;
+    width: 51px;
       font-size: 30px;
     cursor: pointer;
     background: none;
-    padding: 10px 10px;
+    padding: 3px 10px;
   }
   
   .openbtn:hover {
@@ -70,6 +70,16 @@
       color: #EC5242;
       font-size: 2.4rem;
       font-family: "Lato", sans-serif;
+
+      position: relative;
+    left: 0;
+    color: #e85242;
+    font-size: 3rem;
+    line-height: 1.2;
+    padding-top: 10rem;
+    margin-left: 0;
+    max-width: 45rem;
+    font-weight: 600;
   }
 
   .firstSection h1 {
@@ -105,16 +115,96 @@
   .secondSection h2 {
 
     width: 100%;
-    font-weight: 500;
+    font-weight: bold;
     line-height: 2rem;
     text-align: center;
+    font-size: 500;
+    padding: 10px;
   }
 
+  .programbtn {
+    background-color:#EC5242;
+    color: white;
+    width: 70%;
+    height: 90px;
+    margin-left: 13%;
+    margin-top: 79px;
+    font-size: 35px;
+  }
+
+  .programTitle {
+    color: #EC5242;
+    font-weight: bold;
+    font-size: 140%;
+    padding: 8px;
+
+  }
+
+  .mainContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .spaceSpeacker {
+    width: 90%;
+    background-color: rgba(211, 211, 211, 0.2);
+    display: flex;
+    flex-direction: row;
+    align-items: normal;
+    margin-bottom: 20px;
+    height: 85px;
+}
+
+.spaceSpeacker p {
+  margin: 10px;
+  font-weight: bold;
+}
+
   .icon {
-    width: 50px;
+    width: 49px;
+    height: min-content;
+    padding: 5px;
+
   }
 
   .speackerimg {
     width: 150px;
   }
 
+  .speackersContainer {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .speacker {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    gap: 25px;
+  }
+
+  .speacker h4 {
+    color: #EC5242;
+  }
+
+  .featured {
+    width: 100%;
+    font-weight: bold;
+    line-height: 2rem;
+    text-align: center;
+    font-size: 500;
+    padding: 7px;
+    padding-top: 30px; 
+    padding-bottom: 40px;
+  }
+
+  button:hover {
+    cursor: pointer;
+  }
+
+  .container {
+    font-family: "Lato", sans-serif;
+    font-weight: bold;  
+  }
