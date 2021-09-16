@@ -5,6 +5,10 @@
   padding: 0;  
 }
 
+body {
+  font-family: "Lato", sans-serif;
+}
+
 /* mobile navbar */
 .sidebar {
     height: 100%;
@@ -351,10 +355,48 @@
       padding: 17px;
     }
 
+    #firstDesktopNav {
+      display: none;
+    }
+
+    .secondDesktopNav {
+      display: none;
+    }
+
     @media (min-width: 768px) {
 /* desktop navbars */
-.fab {
-  width: 10px;
+
+#firstDesktopNav {
+  display: flex;
+    background-color: rgb(0 0 0 / 80%);
+    text-decoration: none;
+    justify-content: flex-end;
+    gap: 71px;
+    font-size: x-large;
+}
+
+#firstDesktopNav a {
+color: white;
+text-decoration: none;
+}
+
+.secondDesktopNav {
+  display: flex;
+justify-content: space-between;
+background-color: white;
+text-decoration: none;
+color: black;
+font-size: xx-large;
+}
+
+.secondDesktopNav a {
+  color: #47525d;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.mobile-nav {
+  display: none;
 }
     }
 

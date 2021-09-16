@@ -5,21 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>MWC Barcelona</title>
 </head>
 <body>
     <header class="firstPage">
-        <nav>
-            <a href=""><i class="fab fa-facebook"></i></a>
-            <a href=""><img src="./img/redtwitter.svg" alt=""></a>
-            <a href=""></a>
-            <a href=""></a>
+        <nav id="firstDesktopNav">
+            <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+            <a href="https://github.com/algerina">My Page</a>
+            <a href="#">Logout</a>
         </nav>
-        <nav></nav>
+        <nav class="secondDesktopNav">
+               <a href=""><img src="./img/logo4.png" alt=""></a>
+                <a href="./about.html">About</a>
+                <a href="#">Program</a>
+                <a href="">Join</a>
+                <a href="">Sponsor</a>
+        </nav>
         <!--mobile navbar-->
+        <section class="mobile-nav">
         <nav id="mobileSidebar" class="sidebar" >
             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">X</a>
-            <a href="/about.html">About</a>
+            <a href="about.html">About</a>
             <a href="#">Program</a>
             <a href="#">Join</a>
             <a href="#">Sponsor</a>
@@ -28,6 +36,7 @@
         <div id="main">
            <button  class="openbtn" onclick="openNav()">☰</button>
         </div>
+        </section>
         <section class="firstSection">
             <div>
             <h1 >Connectivity is unleashed at MWC Barcelona 2022</h1>

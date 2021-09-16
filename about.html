@@ -5,22 +5,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>MWC Barcelona About me</title>
 </head>
 <body>
     <header class="firstPage">
+            <nav id="firstDesktopNav">
+                    <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                    <a href="https://github.com/algerina">My Page</a>
+                    <a href="#">Logout</a>
+                </nav>
+                <nav class="secondDesktopNav">
+                       <a href="./index.html"><img src="./img/logo4.png" alt=""></a>
+                        <a href="./about.html">About</a>
+                        <a href="#">Program</a>
+                        <a href="">Join</a>
+                        <a href="">Sponsor</a>
+                </nav>
         <!--mobile navbar-->
+        <section class="mobile-nav">
         <nav id="mobileSidebar" class="sidebar" >
             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">X</a>
             <a href="#">About</a>
             <a href="#">Program</a>
             <a href="#">Join</a>
             <a href="#">Sponsor</a>
-            <a href="#">News</a>
+            <a href="./index.html">Home</a>
         </nav>
         <div id="main">
            <button  class="openbtn" onclick="openNav()">☰</button>
         </div>
+        </section>
         <section class="sectionOneAbout">
             <div>
             <h1>Connectivity is unleashed at MWC Barcelona 2022</h1>
@@ -37,7 +53,7 @@
     <section class="secondSectionAbout">
         <div class="logoSection">
         <h2>The GSM Mobile World Congress 2021 logo is registered and owned by the GSM Association.</h2>
-        <img src="./img/logo4.png" alt="">
+        <img src="./img/logo2.png" alt="">
         </div>
 
     </section>
