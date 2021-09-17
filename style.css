@@ -110,7 +110,8 @@ body {
 }
 
 .secondSection {
-  background: linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
+  background: 
+  linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
     linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0,
     linear-gradient(27deg, #222 5px, transparent 5px) 0 10px,
     linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px,
@@ -136,7 +137,6 @@ body {
   font-weight: bold;
   line-height: 2rem;
   text-align: center;
-  /* font-size: 500; */
   padding: 10px;
 }
 
@@ -209,7 +209,6 @@ body {
   font-weight: bold;
   line-height: 2rem;
   text-align: center;
-  /* font-size: 500; */
   padding: 7px;
   padding-top: 30px;
   padding-bottom: 40px;
@@ -266,6 +265,11 @@ button:hover {
   font-family: "Lato", sans-serif;
   text-align: center;
   margin: 10%;
+}
+
+footer img {
+  width: 12%;
+  padding: 17px;
 }
 
 .secondSectionAbout img {
@@ -350,11 +354,6 @@ footer {
   color: #414246;
 }
 
-footer img {
-  width: 12%;
-  padding: 17px;
-}
-
 #firstDesktopNav {
   display: none;
 }
@@ -364,6 +363,7 @@ footer img {
 }
 
 @media (min-width: 768px) {
+  
   /* desktop navbars */
 
   #firstDesktopNav {
@@ -394,8 +394,6 @@ footer img {
     color: black;
     font-size: xx-large;
   }
-
- 
 
   .mobile-nav {
     display: none;
