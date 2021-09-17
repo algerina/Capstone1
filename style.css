@@ -111,7 +111,7 @@ body {
 
 .secondSection {
   background: linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
-    linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px,
+    linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0,
     linear-gradient(27deg, #222 5px, transparent 5px) 0 10px,
     linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px,
     linear-gradient(90deg, #1b1b1b 10px, transparent 10px),
@@ -136,7 +136,7 @@ body {
   font-weight: bold;
   line-height: 2rem;
   text-align: center;
-  font-size: 500;
+  /* font-size: 500; */
   padding: 10px;
 }
 
@@ -209,7 +209,7 @@ body {
   font-weight: bold;
   line-height: 2rem;
   text-align: center;
-  font-size: 500;
+  /* font-size: 500; */
   padding: 7px;
   padding-top: 30px;
   padding-bottom: 40px;
@@ -296,9 +296,11 @@ button:hover {
   height: 20rem;
   margin: 0 auto 1rem;
 }
+
 .about-img-shangai {
   background-image: url(./img/about1tint.jpg);
 }
+
 .about-img-paris {
   background-image: url(./img/about2tint.jpg);
 }
@@ -373,6 +375,12 @@ footer img {
     font-size: x-large;
   }
 
+  .secondDesktopNav a {
+    color: #47525d;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
   #firstDesktopNav a {
     color: white;
     text-decoration: none;
@@ -387,11 +395,7 @@ footer img {
     font-size: xx-large;
   }
 
-  .secondDesktopNav a {
-    color: #47525d;
-    text-decoration: none;
-    font-weight: bold;
-  }
+ 
 
   .mobile-nav {
     display: none;
