@@ -8,8 +8,11 @@ function closeNav() {
   document.getElementById('main').style.marginLeft = '0';
 }
 
-let closeBtn = document.getElementById('close-btn');
-closeBtn.addEventListener('click', () => {closeNav()})
+const openBtn = document.getElementById('open-btn');
+openBtn.addEventListener('click', openNav);
+
+const closeBtn = document.getElementById('close-btn');
+closeBtn.addEventListener('click', closeNav);
 
 const speackersContainer = document.querySelector('#speackersContainer');
 
