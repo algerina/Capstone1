@@ -8,6 +8,9 @@ function closeNav() {
   document.getElementById('main').style.marginLeft = '0';
 }
 
+let closeBtn = document.getElementById('close-btn');
+closeBtn.addEventListener('click', () => {closeNav()})
+
 const speackersContainer = document.querySelector('#speackersContainer');
 
 const speackersArray = [
@@ -55,5 +58,5 @@ for (let i = 0; i < speackersArray.length; i += 1) {
                 <p class="speackerAbout">${speackersArray[i].about}</p>
             </div>
         </div>
-`; 
+`;
 }
