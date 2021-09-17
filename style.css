@@ -77,7 +77,6 @@ body {
   font-family: "Lato", sans-serif;
   position: relative;
   left: 0;
-  font-size: 3rem;
   line-height: 1.2;
   padding-top: 10rem;
   margin-left: 0;
@@ -116,15 +115,7 @@ body {
     linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px,
     linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px,
     linear-gradient(90deg, #1b1b1b 10px, transparent 10px),
-    linear-gradient(
-      #1d1d1d 25%,
-      #1a1a1a 25%,
-      #1a1a1a 50%,
-      transparent 50%,
-      transparent 75%,
-      #242424 75%,
-      #242424
-    );
+    linear-gradient( #1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
   background-color: #131313;
   background-size: 20px 20px;
   height: 768px;
