@@ -19,8 +19,11 @@ This project is simple and minimalistic with only a Home page and an About page,
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://rawcdn.githack.com/algerina/Capstone1/2d06fdb400bdda47d2ef5312bcfcb32962c3c5dc/index.html)
 
+## Demo video
+
+[Demo video](https://www.loom.com/share/2cf235a97da748398aa146e409628aff)
 
 ## Getting Started
 

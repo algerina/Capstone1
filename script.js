@@ -21,7 +21,7 @@ function openNav() {
     {
       name: 'Mark Zuckerberg',
       position: 'Co-founder, Chairperson and CEO Facebook',
-      about: 'Mark Elliot Zuckerberg is a media magnate, internet entrepreneur, and philanthropist',
+      about: 'Mark Elliot Zuckerberg is a media magnate, internet entrepreneur, and philanthropist.',
       image: './img/speackertwo.jpg',
     },
     {
@@ -33,7 +33,7 @@ function openNav() {
     {
       name: 'Cher Wang',
       position: 'Co-founder and Chairperson, HTC corporation',
-      about: 'Cher Wang is an entrepreneur and philanthropist. As co-founder and chairperson',
+      about: 'Cher Wang is an entrepreneur and philanthropist. As co-founder and chairperson.',
       image: './img/speackerfour.jpg',
     },
     {
