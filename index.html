@@ -1,133 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>MWC Barcelona</title>
 </head>
+
 <body>
     <header class="firstPage">
-        <!--mobile navbar-->
-        <nav id="mobileSidebar" class="sidebar" >
-            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">X</a>
-            <a href="#">About</a>
-            <a href="#">Program</a>
-            <a href="#">Join</a>
-            <a href="#">Sponsor</a>
-            <a href="#">News</a>
+        <nav id="firstDesktopNav">
+            <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+            <a href="https://github.com/algerina">My Page</a>
+            <a href="#">Logout</a>
         </nav>
-        <div id="main">
-           <button  class="openbtn" onclick="openNav()">☰</button>
-        </div>
+        <nav class="secondDesktopNav">
+            <a href=""><img src="./img/logo4.png" alt=""></a>
+            <a href="./about.html">About</a>
+            <a href="#">Program</a>
+            <a href="">Join</a>
+            <a href="">Sponsor</a>
+            <a href="./index.html">Home</a>
+        </nav>
+        <!--mobile navbar-->
+        <section class="mobile-nav">
+            <nav id="mobileSidebar" class="sidebar">
+                <a href="javascript:void(0)" class="closebtn" id="close-btn">X</a>
+                <a href="about.html">About</a>
+                <a href="#">Program</a>
+                <a href="#">Join</a>
+                <a href="#">Sponsor</a>
+                <a href="#">News</a>
+            </nav>
+            <div id="main">
+                <button class="openbtn" id="open-btn">☰</button>
+            </div>
+        </section>
         <section class="firstSection">
             <div>
-            <h1 >Connectivity is unleashed at MWC Barcelona 2022</h1>
-                    <p class="sectionText">MWC Barcelona is the world’s most influential event for the connectivity industry. It’s where <br> 
-                        world-leading companies and trailblazers share the latest thought leadership about the <br>
-                         progression and future of connectivity. And it’s the best place for networking opportunities <br>
-                          with mobile and tech industry influencers.</p>
-                          <h3>Barcelona Spain <br>
-                            28 February – 3 March 2022</h3>
-                    </div>
+                <p class="hello">"HELLO CONNECTED WORLD!"</p>
+                <h1>CONNECTIVITY IS UNLEASHED AT MWC BARCELONA 2022</h1>
+                <p class="sectionText">MWC Barcelona is the world’s most influential event for the connectivity
+                    industry. It’s where <br>
+                    world-leading companies and trailblazers share the latest thought leadership about the
+                    progression and future of connectivity. And it’s the best place for networking opportunities <br>
+                    with mobile and tech industry influencers.</p>
+                <h3>Barcelona Spain <br>
+                    28 February – 3 March 2022</h3>
+            </div>
         </section>
     </header>
     <section class="secondSection">
         <h2>Main Program</h2>
-        <div class="mainContainer">
-            <div class="spaceSpeacker">
-                <img  class="icon" src="./img/icon1.png" alt="speackersicon">
+        <div class="mainContainer deskContainer">
+            <div class="spaceSpeacker spacedesk">
+                <img class="icon" src="./img/icon1.png" alt="speackersicon">
                 <span class="programTitle">Speackers</span>
-            <p class="programP">It’s where world-leading companies and trailblazers share the latest thought leadership.
+                <p class="programP">It’s where world-leading companies and trailblazers share the latest thought
+                    leadership.
             </div>
-            <div  class="spaceSpeacker">
+            <div class="spaceSpeacker  spacedesk">
                 <img class="icon" src="./img/exhibitionicon.png" alt="exhibitionicon">
                 <span class="programTitle">Exhibition</span>
-            <p class="programP"> It is the place to be seen, exhibit ground-breaking products and technologies, <br> 
-                 and make remarkable connections.</p>
+                <p class="programP"> It is the place to be seen, exhibit ground-breaking products and technologies,
+                    and make remarkable connections.</p>
             </div>
-            <div  class="spaceSpeacker">
+            <div class="spaceSpeacker  spacedesk">
                 <img class="icon" src="./img/forumicon.png" alt="">
                 <span class="programTitle">Forum</span>
-            <p class="programP">Get ready to explore, debate and connect with  creators, and innovators in the industry. </p>
+                <p class="programP">Get ready to explore, debate and connect with creators, and innovators in the
+                    industry. </p>
             </div>
-            <div  class="spaceSpeacker">
+            <div class="spaceSpeacker  spacedesk">
                 <img class="icon" src="./img/workshopicon.png" alt="">
                 <span class="programTitle">Workshop</span>
-            <p class="programP">Whether you’re launching a new product or looking for partners to bring future innovations to life.</p>
+                <p class="programP">Whether you’re launching a new product or looking for partners to bring future
+                    innovations to life.</p>
             </div>
         </div>
         <button class="programbtn">Become an Exhibitor</button>
-
     </section>
-
     <section class="speackersPage">
-       <div class="container"> 
-        <div>
-         <h2 class="featured">Featured Speackers</h2>
+        <div class="container">
+            <div>
+                <h2 class="featured">Featured Speackers</h2>
+            </div>
+            <div class="speackersContainer" id="speackersContainer"></div>
         </div>
-        <div class="speackersContainer">
-            <div class="speacker">
-                <div >
-                <img class="speackerimg" src="./img/speackerone.png" alt="">
-                </div>
-                <div>
-                    <h2>Elon Musk</h2>
-                    <h4>Chief Engineer, Space X</h4>
-                    <p>Elon Reeve Musk FRS is an entrepreneur and business magnate. He is the founder, <br> 
-                        CEO and Chief Engineer at SpaceX; early stage investor</p>
-                </div>
-            </div>
-            <div class="speacker">
-                <div>
-                <img class="speackerimg" src="./img/speackertwo.jpg" alt="">
-                </div>
-                <div>
-                    <h2>Mark Zuckerberg</h2>
-                    <h4>Co-founder, Chairperson and CEO Facebook</h4>
-                    <P>Mark Elliot Zuckerberg is a media magnate, internet entrepreneur, <br> 
-                        and philanthropist. He is known for co-founding Facebook</P>
-                </div>
-            </div>
-            <div class="speacker">
-                <div>
-                <img class="speackerimg" src="./img/speackerthree.jpg" alt="">
-                </div>
-                <div>
-                    <h2>Amina Mohammed</h2>
-                    <h4>Deputy Secretary-General United Nations</h4>
-                    <p>Ms. Amina J. Mohammed is the Deputy Secretary-General of the United Nations <br> 
-                        and Chair of the United Nations Sustainable Development Group.</p>
-                </div>
-            </div>
-            <div class="speacker">
-                <div>
-                <img class="speackerimg" src="./img/speackerfour.jpg" alt="">
-                </div>
-                <div>
-                    <h2>Cher Wang</h2>
-                    <h4>Co-founder and Chairperson, HTC corporation</h4>
-                    <p>Cher Wang is an entrepreneur and philanthropist. As co-founder and chairperson <br>
-                         (since 2007) of HTC Corporation and integrated chipset maker </p>
-                </div>
-            </div>
-            <div class="speacker">
-                <div> 
-                <img class="speackerimg" src="./img/speackerfive.jpg" alt="">
-                </div>
-                <div>
-                    <h2>Reed Hastings</h2>
-                    <h4>CEO Netflix</h4>
-                    <p>Is a businessman. He is the co-founder, chairman, and co-chief executive officer (CEO) of Netflix.</p>
-                </div>
-            </div>
-        </div>
-
-      </div>
     </section>
-
-    <footer></footer>
+    <section class="partnersection">
+        <h2 class="partnertext">Partners</h2>
+        <div class="partners">
+            <img class="partnericon" src="./img/sponsor1.jpg" alt="">
+            <img class="partnericon" src="./img/logospnsor2.png" alt="">
+            <img class="partnericon" src="./img/logosponsor4.png" alt="">
+            <img class="partnericon" src="./img/logosponsor5.png" alt="">
+            <img class="partnericon" src="./img/logosponsor6.png" alt="">
+        </div>
+    </section>
+    <footer>
+        <img src="./img/logo3.png" alt="">
+        <p>GSMA logoLegal© Copyright 2021 GSM Association.</p>
+    </footer>
     <script src="./script.js"></script>
 </body>
+
 </html>
