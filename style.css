@@ -84,19 +84,30 @@ body {
   font-weight: 600;
 }
 
+.hello {
+  margin-top: -52px;
+  margin-bottom: 19px;
+  font-size: 29px;
+  font-weight: bold;
+  padding: 15px;  
+  margin-left: 35px; 
+} 
+
 .firstSection h1 {
   margin-top: -58px;
   text-align: left;
   font-size: 49px;
   font-weight: bold;
   padding: 22px;
+  margin-left: 30px;
 }
 
 .firstSection h3 {
   font-size: 26px;
-  color: #47525d;
-  margin-left: 21px;
+  color: #333;
+  margin-left: 45px;
   margin-top: 10%;
+  font-weight: bold;
 }
 
 .sectionText {
@@ -107,6 +118,7 @@ body {
   margin: 18px;
   border: solid 2px white;
   border-color: hsl(240deg 7% 97%);
+  margin-left: 50px;
 }
 
 .secondSection {
@@ -142,13 +154,13 @@ body {
 }
 
 .programbtn {
-  background-color: #ec5242;
+  background-color: #47525da1;
   color: white;
-  width: 70%;
-  height: 90px;
-  margin-left: 13%;
+  width: 42%;
+  height: 74px;
+  margin-left: 28%;
   margin-top: 79px;
-  font-size: 35px;
+  font-size: 26px;
 }
 
 .programTitle {
@@ -188,6 +200,11 @@ body {
   width: 150px;
 }
 
+.speackerAbout {
+  font-style: normal;
+  color: #333;
+}
+
 .speackersContainer {
   display: flex;
   flex-wrap: wrap;
@@ -203,6 +220,7 @@ body {
 
 .speacker h4 {
   color: #ec5242;
+  font-style: italic;
 }
 
 .featured {
@@ -235,12 +253,12 @@ button:hover {
   font-weight: 600;
 }
 
-.sectionOneAbout p {
+.sectionAbout  {
   color: rgb(71 82 93 / 87%);
   font-family: "Lato", sans-serif;
   font-size: 20px;
   background-color: hsl(240deg 7% 97% / 61%);
-  margin: 1px;
+  margin: 37px;
   border: solid 15px white;
   border-color: hsl(240deg 7% 97%);
   padding: 13px;
@@ -254,12 +272,13 @@ button:hover {
 }
 
 .sectionOneAbout h1 {
-  margin-top: -58px;
+  margin-top: -27px;
   text-align: center;
   font-size: 49px;
   font-weight: bold;
-  padding: 22px;
+  padding: 19px;
 }
+
 
 .secondSectionAbout {
   color: #47525d;
@@ -274,13 +293,19 @@ footer img {
 }
 
 .secondSectionAbout img {
-  width: 62%;
+  width: 27%;
   margin: 10%;
   border: solid #333 1px;
+  margin-left: 116px;
 }
 
 .logoSection {
   border-block-end: 2px solid grey;
+}
+
+.logofont {
+  font-size: 23px;
+  margin: 58px;
 }
 
 .line {
@@ -297,7 +322,7 @@ footer img {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 60%;
+  width: 46%;
   height: 20rem;
   margin: 0 auto 1rem;
 }
@@ -363,13 +388,17 @@ footer {
   display: none;
 }
 
+.deskexhib {
+  display: none;
+}
+
 @media (min-width: 768px) {
   #firstDesktopNav {
     display: flex;
     background-color: rgb(0 0 0 / 80%);
     text-decoration: none;
     justify-content: flex-end;
-    gap: 71px;
+    gap: 20px;
     font-size: x-large;
   }
 
@@ -386,11 +415,41 @@ footer {
 
   .secondDesktopNav {
     display: flex;
-    justify-content: space-between;
     background-color: white;
     text-decoration: none;
     color: black;
-    font-size: xx-large;
+    font-size: x-large;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 175px;
+  }
+
+  .deskContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 38px;
+  }
+
+  .spacedesk {
+    width: 90%;
+    background-color: rgba(211, 211, 211, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 45px;
+    height: 249px; 
+  }
+
+  .speacker {
+    flex: 1 1 21%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-top: 55px;
+    padding-right: -21px;
+    padding-left: 131px;
   }
 
   .mobile-nav {

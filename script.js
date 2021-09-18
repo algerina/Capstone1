@@ -42,10 +42,16 @@ const speackersArray = [
     image: './img/speackerfour.jpg',
   },
   {
-    name: 'Reed Hastings',
-    position: 'CEO Netflix',
-    about: 'Is a businessman. He is the co-founder, chairman, and co-chief executive officer (CEO) of Netflix.',
-    image: './img/speackerfive.jpg',
+    name: 'Satya Nadella',
+    position: 'CEO Microsoft',
+    about: 'He is the executive chairman and CEO of Microsoft, succeeding Steve Ballmer in 2014.',
+    image: './img/speacker6.jpg',
+  },
+  {
+   name: 'Reed Hastings',
+   position: 'CEO Netflix',
+   about: 'Is a businessman. He is the co-founder, chairman, and co-chief executive officer (CEO) of Netflix.',
+   image: './img/speackerfive.jpg', 
   },
 ];
 
