@@ -48,10 +48,10 @@ const speackersArray = [
     image: './img/speacker6.jpg',
   },
   {
-   name: 'Reed Hastings',
-   position: 'CEO Netflix',
-   about: 'Is a businessman. He is the co-founder, chairman, and co-chief executive officer (CEO) of Netflix.',
-   image: './img/speackerfive.jpg', 
+    name: 'Reed Hastings',
+    position: 'CEO Netflix',
+    about: 'Is a businessman. He is the co-founder, chairman, and co-chief executive officer (CEO) of Netflix.',
+    image: './img/speackerfive.jpg',
   },
 ];
 
