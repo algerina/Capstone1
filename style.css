@@ -3,6 +3,7 @@
 * {
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
 }
 
 body {
@@ -161,6 +162,8 @@ body {
   margin-left: 28%;
   margin-top: 79px;
   font-size: 26px;
+  border: none;
+  text-decoration: underline;
 }
 
 .programTitle {
@@ -420,7 +423,7 @@ footer {
     color: black;
     font-size: x-large;
     justify-content: space-between;
-    gap: 175px;
+    /* gap: 175px; */
     align-items: center;
   }
 
