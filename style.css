@@ -154,7 +154,7 @@ body {
 }
 
 .programbtn {
-  background-color: #47525da1;
+  background-color: hsl(0deg 0% 13% / 40%);
   color: white;
   width: 42%;
   height: 74px;
@@ -405,6 +405,7 @@ footer {
     color: #47525d;
     text-decoration: none;
     font-weight: bold;
+    margin-right: 16px;
   }
 
   #firstDesktopNav a {
@@ -418,9 +419,9 @@ footer {
     text-decoration: none;
     color: black;
     font-size: x-large;
-    align-items: center;
-    justify-content: flex-end;
+    justify-content: space-between;
     gap: 175px;
+    align-items: center;
   }
 
   .deskContainer {
