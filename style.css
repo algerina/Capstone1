@@ -236,7 +236,7 @@ body {
   padding-top: -17px;
   color: hsl(0deg 0% 13%);
   margin-bottom: 20px;
-  margin-top: 0px;
+  margin-top: 0;
 
 }
 
@@ -291,10 +291,10 @@ button:hover {
 }
 
 .secondSectionAbout {
-    color: #47525d;
-    font-family: "Lato", sans-serif;
-    text-align: center;
-    margin: 3%;
+  color: #47525d;
+  font-family: "Lato", sans-serif;
+  text-align: center;
+  margin: 3%;
 }
 
 footer img {
@@ -456,7 +456,7 @@ footer {
     padding-top: 55px;
     padding-right: -21px;
     padding-left: 56px;
-}
+  }
 
   .mobile-nav {
     display: none;
