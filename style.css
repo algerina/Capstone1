@@ -154,7 +154,7 @@ body {
 }
 
 .programbtn {
-  background-color: hsl(0deg 0% 13% / 40%);
+  background-color: hsl(0deg 0% 13% / 0%);
   color: white;
   width: 42%;
   height: 74px;
@@ -449,7 +449,7 @@ footer {
     gap: 20px;
     padding-top: 55px;
     padding-right: -21px;
-    padding-left: 131px;
+    padding-left: 56px;
   }
 
   .mobile-nav {
