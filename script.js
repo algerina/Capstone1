@@ -61,7 +61,7 @@ for (let i = 0; i < speackersArray.length; i += 1) {
             <div class="speackerImg">
                 <img class="speackerimg" src="${speackersArray[i].image}" alt="">
             </div>
-            <div>
+            <div class="musk">
                 <h2 class="speackerName">${speackersArray[i].name}</h2>
                 <h4 class="speackerPosition">${speackersArray[i].position}</h4>
                 <p class="speackerAbout">${speackersArray[i].about}</p>
