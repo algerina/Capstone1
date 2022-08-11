@@ -53,6 +53,7 @@ body {
   cursor: pointer;
   background: none;
   padding: 3px 10px;
+  border-radius: 3px;
 }
 
 .openbtn:hover {
@@ -120,6 +121,8 @@ body {
   border: solid 2px white;
   border-color: hsl(240deg 7% 97%);
   margin-left: 50px;
+  padding: 10px;
+  border-radius: 5px;
 }
 
 .secondSection {
@@ -406,6 +409,7 @@ footer {
     justify-content: flex-end;
     gap: 20px;
     font-size: x-large;
+    padding: 5px;
   }
 
   .secondDesktopNav a {
@@ -413,11 +417,13 @@ footer {
     text-decoration: none;
     font-weight: bold;
     margin-right: 16px;
+    padding: 5px;
   }
 
   #firstDesktopNav a {
     color: white;
     text-decoration: none;
+    font-size: 17px;
   }
 
   .secondDesktopNav {
