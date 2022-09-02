@@ -38,7 +38,7 @@ To get a local copy just download the repository ZIP, UNZIP then open the Index.
 👤**Amel Khiri**
 
 - GitHub: [@Algerina](https://github.com/Algerina)
-- LinkedIn: [@Amel Khiri](https://linkedin.com/in/amel-khiri-qahwadji-37a550135)
+- LinkedIn: [@Amel Khiri](https://linkedin.com/in/amel-khiri)
 
 
 
