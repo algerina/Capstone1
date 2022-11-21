@@ -30,7 +30,6 @@ This project is simple and minimalistic with only a Home page and an About page,
 To get a local copy just download the repository ZIP, UNZIP then open the Index.html file.
 
 
-
 ## Authors
 
 👤 **Author**
@@ -39,7 +38,6 @@ To get a local copy just download the repository ZIP, UNZIP then open the Index.
 
 - GitHub: [@Algerina](https://github.com/Algerina)
 - LinkedIn: [@Amel Khiri](https://linkedin.com/in/amel-khiri)
-
 
 
 ## 🤝 Contributing
